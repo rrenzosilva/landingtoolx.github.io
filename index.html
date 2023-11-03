@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>ToolX</title>
+    </head>
+    
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/logo.png" alt="" class="nav__logo-img">
+                    ToolX
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Inicio</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Servicio</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#trick" class="nav__link">Herramientas</a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link">Nuevos</a>
+                        </li>
+
+                        <a href="#" class="button button--ghost">Iniciar Sesion</a>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="assets/img/nav-img - copia.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <section class="home container" id="home">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/home1.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">Ella es Carla</h4>
+                                        <span class="home__details-subtitle">una carpintera</span>
+                                    </div>
+                                </div>
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">Herramientas Manuales</h3>
+                                    <h1 class="home__title">LAS <br>MEJORES <br>HERRAMIENTAS</h1>
+                                    <p class="home__description">Tenemos las mejores herramientas manuales del mercado solo buscalo y lo encontraras.
+                                    </p>
+                                    <div class="home__buttons">
+                                        <a href="#" class="button">Registrate</a>
+                                        <a href="#" class="button--link button--flex">Desliza <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/home2.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">El es Renzo</h4>
+                                        <span class="home__details-subtitle">Un leñador</span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">Herramientas SemiAutomaticas</h3>
+                                    <h1 class="home__title">LAS<br>MEJORES <br>HERRAMIENTAS</h1>
+                                    <p class="home__description">Ademas contamos con herramientas SemiAutomaticas para trabajos mas complidados .
+                                    </p>
+
+                                    <div class="home__buttons">
+                                        <a href="#" class="button">Registrate</a>
+                                        <a href="#" class="button--link button--flex">Desliza <i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/home3.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">El es Carlos</h4>
+                                        <span class="home__details-subtitle">Un hobrero</span>
+                                    </div>
+                                </div>
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">Herramientas Automaticas</h3>
+                                    <h1 class="home__title">LAS<br>MEJORES<br>HERRAMIENTAS</h1>
+                                    <p class="home__description">Por si fuera poco contamos con lo ultimo en tecnologia listo para ser usados en trabajos pesados.
+                                    </p>
+
+                                    <div class="home__buttons">
+                                        <a href="#" class="button">Registrate</a>
+                                        <a href="#" class="button--link button--flex">Desliza<i class='bx bx-right-arrow-alt button__icon'></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <section class="section category">
+                <h2 class="section__title">Categoria de<br>la Herramienta</h2>
+
+                <div class="category__container container grid">
+                    <div class="category__data">
+                        <img src="assets/img/cat1.png" alt="" class="category__img">
+                        <h3 class="category__title">Manuales</h3>
+                        <p class="category__description">Para tareas simples.</p>
+                    </div>
+
+                    <div class="category__data">
+                        <img src="assets/img/cat2.png" alt="" class="category__img">
+                        <h3 class="category__title">SemiAutomaticas</h3>
+                        <p class="category__description">Para tareas Complejas.</p>
+                    </div>
+
+                    <div class="category__data">
+                        <img src="assets/img/cat3.png" alt="" class="category__img">
+                        <h3 class="category__title">Automaticas</h3>
+                        <p class="category__description">Para tareas Pesadas.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="section about" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">Nuestro Servicio <br> Trata:</h2>
+                        <p class="about__description">¿Estás pensando en realizar un proyecto de bricolaje, construcción o jardinería? En ToolX te ofrecemos una amplia gama de herramientas para que puedas hacerlo sin tener que invertir en ellas.
+                            Encontrarás herramientas para todos los niveles, desde herramientas básicas para el bricolaje hasta herramientas profesionales para la construcción. También ofrecemos servicios adicionales, como la entrega a domicilio y la recogida de las herramientas..
+                        </p>
+                        <a href="#" class="button">Registrate</a>
+                    </div>
+
+                    <img src="assets/img/about.jpg" alt="" class="about__img">
+                </div>
+            </section>
+            <section class="section trick" id="trick">
+                <h2 class="section__title">Herramientas</h2>
+
+                <div class="trick__container container grid">
+                    <div class="trick__content">
+                        <img src="assets/img/h1.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Taladro</h3>
+                        <span class="trick__subtitle">Bosch</span>
+                        <span class="trick__price">$11.99xDia</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/h2.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Martillo</h3>
+                        <span class="trick__subtitle">Stanley</span>
+                        <span class="trick__price">$8.99xDia</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/h3.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Kit Completo</h3>
+                        <span class="trick__subtitle">Stanley</span>
+                        <span class="trick__price">$15.99xDia</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/h4.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Cinta Metrica</h3>
+                        <span class="trick__subtitle">Stanley</span>
+                        <span class="trick__price">$5.99xDia</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/h5.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Atornillados</h3>
+                        <span class="trick__subtitle">Milaweek</span>
+                        <span class="trick__price">$19.99xDia</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/h6.png" alt="" class="trick__img">
+                        <h3 class="trick__title">Lijadora</h3>
+                        <span class="trick__subtitle">Milaweek</span>
+                        <span class="trick__price">$17.99xDia</span>
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon'></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section class="section discount">
+                <div class="discount__container container grid">
+                    <div class="discount__data">
+                        <h2 class="discount__title">50% De Descuento <br> Por Cada Nuevo Usuario</h2>
+                        <a href="#" class="button">Registrate</a>
+                    </div>
+
+                    <img src="assets/img/descuento.png" alt="" class="discount__img">
+                </div>
+            </section>
+            <section class="section new" id="new">
+                <h2 class="section__title">Recien LLegados</h2>
+
+                <div class="new__container container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">Nueva</div>
+                                <img src="assets/img/new1.png" alt="" class="new__img">
+                                <h3 class="new__title">Motosierra</h3>
+                                <span class="new__subtitle">Dewalt</span>
+                                
+                                <div class="new__prices">
+                                    <span class="new__price">$14.99</span>
+                                    <span class="new__discount">$29.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">Nuevo</div>
+                                <img src="assets/img/new2.png" alt="" class="new__img">
+                                <h3 class="new__title">Lijadora</h3>
+                                <span class="new__subtitle">Dewalt</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">$11.99</span>
+                                    <span class="new__discount">$21.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">Nuevo</div>
+                                <img src="assets/img/new3.png" alt="" class="new__img">
+                                <h3 class="new__title">Bateria</h3>
+                                <span class="new__subtitle">Bosh</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">$4.99</span>
+                                    <span class="new__discount">$9.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">Nuevo</div>
+                                <img src="assets/img/new4.png" alt="" class="new__img">
+                                <h3 class="new__title">Taladro</h3>
+                                <span class="new__subtitle">Dewalt</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">$24.99</span>
+                                    <span class="new__discount">$44.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">Nuevo</div>
+                                <img src="assets/img/new5.png" alt="" class="new__img">
+                                <h3 class="new__title">Aspiradora</h3>
+                                <span class="new__subtitle">railly</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">$5.99</span>
+                                    <span class="new__discount">$12.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+        
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag">Nueva</div>
+                                <img src="assets/img/new6.png" alt="" class="new__img">
+                                <h3 class="new__title">Bateria</h3>
+                                <span class="new__subtitle">Bauker</span>
+        
+                                <div class="new__prices">
+                                    <span class="new__price">$7.99</span>
+                                    <span class="new__discount">$14.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section newsletter">
+                <div class="newsletter__container container">
+                    <h2 class="section__title">Que Esperas Unete!!</h2>
+                    <p class="newsletter__description">
+                        Promocion anteriror  para nuevos usuarios 
+                    </p>
+
+                    <form action="" class="newsletter__form">
+                        <input type="text" placeholder="Ingresa tu email" class="newsletter__input">
+                        <button class="button">
+                            Registrate
+                        </button>
+                    </form>
+                </div>
+            </section>
+        </main>
+            <footer class="footer section">
+                <div class="footer__container container grid">
+                    <div class="footer__content">
+                        <a href="#" class="footer__logo">
+                            <img src="assets/img/logo.png" alt="" class="footer__logo-img">
+                            ToolX
+                        </a>
+
+                        <p class="footer__description">Lo mejor de <br>las Herramientas.</p>
+                        
+                        <div class="footer__social">
+                            <a href="" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-facebook'></i>
+                            </a>
+                            <a href="" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-instagram-alt' ></i>
+                            </a>
+                            <a href="" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-twitter' ></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Nosotros</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Sobre Nosotros</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Futuro</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Nuevos</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Servicio</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Precios</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Descuentos</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">buscar Herramienta</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__content">
+                        <h3 class="footer__title">Startup</h3>
+                        
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Historia</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Conocenos</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Mision</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                
+                <img src="assets/img/f1.png" alt="" class="footer__img-one">
+                <img src="assets/img/f2.png" alt="" class="footer__img-two">
+            </footer>
+
+            <!--=============== ANMIMACION---SCROLL UP ===============-->
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+            </a>
+        
+        <!--=============== ANIMACION--SCROLL REVEAL ===============-->
+        <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+        <!--=============== ANIMACION--SWIPER JS ===============-->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        
+        <!--=============== ANIMACION--MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
